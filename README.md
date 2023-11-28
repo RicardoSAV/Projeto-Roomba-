@@ -36,16 +36,17 @@ ssh -X -C ubuntu@
 
 A pinagem se trata da posição de todos os pinos nos circuitos das placas ou das entradas seriais. A imagem a seguir demonstra a pinagem da entrada serial do Roomba, que se trata de um conector mini-DIN de 7 pinos.
 
-[inserir essa imagem da forma correta no repositório]
+![Alt text](https://cdn.discordapp.com/attachments/747231290998390895/1179154847505854504/image.png?ex=6578c087&is=65664b87&hm=180db630c2902b602fe7cc2604503add7087202d0ba56744c35cb332dcd627c5&) 
+
 Os pinos relevantes para o projeto são os 3, 4 e 6 (ou 7). É importante destacar que o cabo equivalente ao RX (Receiver) deve ser conectado, no Roomba, ao TX (Transmitter), enquanto o cabo equivalente ao TX deve ser conectado ao RX.
 Para identificar qual cabo é qual, observe os pinos em que estão conectados no Arduino, conforme a pinagem do mesmo, demonstrada na imagem a seguir:
 
-[inserir essa imagem da forma correta no repositório]
+![Alt text](https://cdn.discordapp.com/attachments/747231290998390895/1179154962710798436/image.png?ex=6578c0a2&is=65664ba2&hm=1ed65c9448953fa77068470f671e33e293daa05db7fb9f1f063dfd28d3daa400&)
 
 
 A pinagem da Raspberry Pi Modelo B é demonstrada na imagem a seguir:
 
-[inserir essa imagem da forma correta no repositório]
+![Alt text](https://cdn.discordapp.com/attachments/747231290998390895/1179155046370381834/image.png?ex=6578c0b6&is=65664bb6&hm=445088b53bd6a62f3458d9409ad57900ad4e00690695db94ab1aa1d1d97430bc&)
 	
 
 
