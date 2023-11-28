@@ -35,5 +35,10 @@ Caso ainda apresente erro, tente por usar o IP dado neste seguinte comando
 ```
 ssh -X -C ubuntu@
 ```
+(...)
+
+# ROS
+(...)
 
 
+(...)
