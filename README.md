@@ -10,9 +10,7 @@ O Projeto-Roomba, como apelidado pelos autores, é composto por um robô aspirad
 
 Com muito cuidado, conecte o Arduino a um computador via um cabo USB A/B, e em seguida, acesse o Arduino IDE. Os arquivos "Test", que podem ser encontrados neste repositório, devem conter códigos que foram usados no Arduino durante o desenvolvimento da plataforma. É altamente recomendável o uso dos mesmos como base para a inicial compreensão da interface do Roomba. Este arquivo contém configurações de inicialização do robô nos modos corretos, bem como movimentação das rodas, conforme o manual iRobot® Create® 2 Open Interface (OI) anexo ao repositório. ![Confira esse Manual para melhor compreensão dos códigos](https://github.com/RicardoSAV/Projeto-Roomba-/blob/main/create2-oi-spec.pdf)
 
-O arquivo Test1 possui um controle basico de movimento
-O arquivo Test2 possui um código que liga e desliga 
-O arquivo Test3 possui instruções em seus comentarios, é o mais completo com opções de ligamento, movimentação e rotação
+O arquivo Test1 possui um controle basico de movimento; o arquivo Test2 possui um código que liga e desliga, o arquivo Test3 possui instruções em seus comentarios, é o mais completo com opções de ligamento, movimentação e rotação
 
 # Manuseio da Raspberry Pi
 
@@ -52,8 +50,22 @@ A pinagem da Raspberry Pi Modelo B é demonstrada na imagem a seguir:
 
 ![Alt text](https://cdn.discordapp.com/attachments/747231290998390895/1179155046370381834/image.png?ex=6578c0b6&is=65664bb6&hm=445088b53bd6a62f3458d9409ad57900ad4e00690695db94ab1aa1d1d97430bc&)
 
-# Se Divirta
+# Como estabelecer controle do Arduino e do robô através de um terminal
 
+Os códigos de movimentação devem já estar gravados no Arduino. Para mais detalhes, verifique o arquivo em anexo que descreve o funcionamento dos códigos base. Primeiramente, certifique-se de que os cabos estejam devidamente conectados nos pinos corretos. Em seguida, abra um terminal por onde deseja controlar o Arduino. Digite o seguinte comando para verificar o nome do dispositivo:
+
+```
+ls /dev/tty*
+```
+Em seguida, utilize o seguinte código para iniciar a comunicação, colocando o /tty encontrado no código anterior:
+```
+sudo screen /dev/ttyUSB0 9600
+```
+Caso apresente um erro, tente instalar o screen através do seguinte comando:
+```
+sudo apt-get install screen
+```
+Com isso, o terminal deve ter iniciado o modo desejado. No código base, o input do teclado "0" para o movimento do robô. Enquanto o "1" faz com que o mesmo ande para a frente. Se tudo estiver correto, ao apertar a tecla 1 o robô deverá começar a andar após alguns segundos. Esse código pode ser customizado de acordo com as necessidades.
 
 	
 
