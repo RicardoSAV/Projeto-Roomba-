@@ -1,0 +1,97 @@
+#include <SoftwareSerial.h>
+
+#define rx_1Pin 2
+
+#define tx_1Pin 3
+
+
+
+// seta as portas seriais
+
+SoftwareSerial mySerial =  SoftwareSerial(rx_1Pin, tx_1Pin);
+
+
+void setup()  {
+
+   // define os modos dos pinos para tx, rx:
+
+  Serial.begin(9600);
+
+   pinMode(rx_1Pin, INPUT);
+
+   pinMode(tx_1Pin, OUTPUT);
+
+
+
+   // seta a frequência das portas
+
+   mySerial.begin(115200);
+
+
+}
+
+void loop() {
+
+   if (Serial.available() > 0) {
+  int dado=Serial.read();
+  if (dado=='1')
+  {
+ 
+     mySerial.write(128);
+   delay(1000);
+   
+    mySerial.write(130);
+   delay(1000);
+   
+    mySerial.write(131);
+   delay(1000);
+  
+   
+   delay(500);
+  
+   mySerial.write(146);
+   delay(300);
+ mySerial.write(byte(0x00));//nao mexa
+ delay(300);
+   mySerial.write(64);
+ delay(300);
+   mySerial.write(byte(0x00));//nao mexa
+  delay(300);
+   mySerial.write(64);
+  delay(300);
+  delay(200);
+  
+    
+  }
+  else if (dado=='0')
+  {
+     mySerial.write(128);
+   delay(1000);
+   
+    mySerial.write(130);
+   delay(1000);
+   
+    mySerial.write(131);
+   delay(1000);
+  
+   
+   delay(500);
+  
+   mySerial.write(146);
+   delay(300);
+ mySerial.write(byte(0x00));
+ delay(300);
+   mySerial.write(byte(0x00));
+ delay(300);
+   mySerial.write(byte(0x00));
+  delay(300);
+   mySerial.write(byte(0x00));
+  delay(300);
+  
+    
+    
+  } 
+  
+  
+   }
+}
