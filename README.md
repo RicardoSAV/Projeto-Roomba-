@@ -8,7 +8,7 @@ O Projeto-Roomba, como apelidado pelos autores, é composto por um robô aspirad
 
 # Visualização manual dos códigos no Arduino
 
-Com muito cuidado, conecte o Arduino a um computador via um cabo USB A/B, e em seguida, acesse o Arduino IDE. Os arquivos "Test", que pode ser encontrado neste repositório, devem conter códigos que foram usados no Arduino durante o desenvolvimento da plataforma. É altamente recomendável o uso dos mesmos como bases para a inicial compreensão da interface do Roomba. Este arquivo contém configurações de inicialização do robô nos modos corretos, bem como movimentação das rodas, conforme o manual iRobot® Create® 2 Open Interface (OI) anexo ao repositório. [Anexar PDF do manual]
+Com muito cuidado, conecte o Arduino a um computador via um cabo USB A/B, e em seguida, acesse o Arduino IDE. Os arquivos "Test", que pode ser encontrado neste repositório, devem conter códigos que foram usados no Arduino durante o desenvolvimento da plataforma. É altamente recomendável o uso dos mesmos como bases para a inicial compreensão da interface do Roomba. Este arquivo contém configurações de inicialização do robô nos modos corretos, bem como movimentação das rodas, conforme o manual iRobot® Create® 2 Open Interface (OI) anexo ao repositório. ![Confira esse Manual para melhor compreensão dos códigos](https://github.com/RicardoSAV/Projeto-Roomba-/blob/main/create2-oi-spec.pdf)
 
 O arquivo Tes1 possue um controle basico de movimento
 O arquivo Test2 possue um código que liga e desliga 
