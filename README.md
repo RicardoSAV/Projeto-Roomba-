@@ -51,6 +51,10 @@ Para identificar qual cabo é qual, observe os pinos em que estão conectados no
 A pinagem da Raspberry Pi Modelo B é demonstrada na imagem a seguir:
 
 ![Alt text](https://cdn.discordapp.com/attachments/747231290998390895/1179155046370381834/image.png?ex=6578c0b6&is=65664bb6&hm=445088b53bd6a62f3458d9409ad57900ad4e00690695db94ab1aa1d1d97430bc&)
+
+# Se Divirta
+
+
 	
 
 
