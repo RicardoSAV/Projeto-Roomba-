@@ -4,11 +4,11 @@ Bem Vindo(a) ao repositório do projeto "Desenvolvimento de uma plataforma para 
 
 # O projeto:
 
-O Projeto-Roomba, como apelidado pelos autores, é composto por um robô aspirador de pó da fabricante iRobot, equipado com uma Raspberry Pi e um Arduino. A presença desses componentes facilita projetos de pesquisa relacionados à área de robótica móvel, pois permite um manuseio manual das funções do robô. Informações mais detalhadas estão presentes no documento completo do artigo em anexo.
+O Projeto-Roomba, como apelidado pelos autores, é composto por um robô aspirador de pó da fabricante iRobot, equipado com uma Raspberry Pi e um Arduino. A presença desses componentes facilita projetos de pesquisa relacionados à área de robótica móvel, pois permite um manuseio manual das funções do robô. Informações mais detalhadas estão presentes no documento completo do [artigo](Plataforma_de_Pesquisa_TCC-atualizado.pdf) em anexo.
 
 # Visualização manual dos códigos no Arduino
 
-Com muito cuidado, conecte o Arduino a um computador via um cabo USB A/B, e em seguida, acesse o Arduino IDE. Os arquivos "Test", que podem ser encontrados neste repositório, devem conter códigos que foram usados no Arduino durante o desenvolvimento da plataforma. É altamente recomendável o uso dos mesmos como base para a inicial compreensão da interface do Roomba. Este arquivo contém configurações de inicialização do robô nos modos corretos, bem como movimentação das rodas, conforme o manual iRobot® Create® 2 Open Interface (OI) anexo ao repositório. ![Confira esse Manual para melhor compreensão dos códigos](https://github.com/RicardoSAV/Projeto-Roomba-/blob/main/create2-oi-spec.pdf)
+Com muito cuidado, conecte o Arduino a um computador via um cabo USB A/B, e em seguida, acesse o Arduino IDE. Os arquivos "Test", que podem ser encontrados neste repositório, devem conter códigos que foram usados no Arduino durante o desenvolvimento da plataforma. É altamente recomendável o uso dos mesmos como base para a inicial compreensão da interface do Roomba. Este arquivo contém configurações de inicialização do robô nos modos corretos, bem como movimentação das rodas, conforme o manual iRobot® Create® 2 Open Interface (OI) anexo ao repositório. [Confira esse Manual para melhor compreensão dos códigos](https://github.com/RicardoSAV/Projeto-Roomba-/blob/main/create2-oi-spec.pdf)
 
 O arquivo [code_main](/code_main) possui um controle basico de movimento comentado, é possível utilizá-lo como base para o desenvolvimento.
 
