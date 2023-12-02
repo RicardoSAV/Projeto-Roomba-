@@ -4,7 +4,7 @@ Bem Vindo(a) ao repositório do projeto "Desenvolvimento de uma plataforma para 
 
 # O projeto:
 
-O Projeto-Roomba, como apelidado pelos autores, é composto por um robô aspirador de pó da fabricante iRobot, equipado com uma Raspberry Pi e um Arduino. A presença desses componentes facilita projetos de pesquisa relacionados à área de robótica móvel, pois permite um manuseio manual das funções do robô. Informações mais detalhadas estão presentes no documento completo do artigo em anexo. [Anexar PDF do artigo quando finalizado]
+O Projeto-Roomba, como apelidado pelos autores, é composto por um robô aspirador de pó da fabricante iRobot, equipado com uma Raspberry Pi e um Arduino. A presença desses componentes facilita projetos de pesquisa relacionados à área de robótica móvel, pois permite um manuseio manual das funções do robô. Informações mais detalhadas estão presentes no documento completo do artigo em anexo.
 
 # Visualização manual dos códigos no Arduino
 
