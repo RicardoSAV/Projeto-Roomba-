@@ -45,10 +45,13 @@ Para identificar qual cabo é qual, observe os pinos em que estão conectados no
 
 ![Alt text](https://cdn.discordapp.com/attachments/747231290998390895/1179154962710798436/image.png?ex=6578c0a2&is=65664ba2&hm=1ed65c9448953fa77068470f671e33e293daa05db7fb9f1f063dfd28d3daa400&)
 
+Clique [aqui](https://docs.arduino.cc/hardware/uno-rev3) para acessar o site oficial do Arduino Uno que contém a pinagem. Obs: No site, aperte em PINOUT.
 
 A pinagem da Raspberry Pi Modelo B é demonstrada na imagem a seguir:
 
 ![Alt text](https://cdn.discordapp.com/attachments/747231290998390895/1179155046370381834/image.png?ex=6578c0b6&is=65664bb6&hm=445088b53bd6a62f3458d9409ad57900ad4e00690695db94ab1aa1d1d97430bc&)
+
+Clique [aqui](https://pinout.xyz) para acessar o site interativo que disponibiliza a pinagem da Raspberry Pi 3.
 
 # Como estabelecer controle do Arduino e do robô através de um terminal
 
