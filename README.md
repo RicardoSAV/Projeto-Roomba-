@@ -68,7 +68,7 @@ Caso apresente um erro, tente instalar o screen através do seguinte comando:
 ```
 sudo apt-get install screen
 ```
-Com isso, o terminal deve ter iniciado o modo desejado. No código base, o input do teclado "0" para o movimento do robô. Enquanto o "1" faz com que o mesmo ande para a frente. Se tudo estiver correto, ao apertar a tecla 1 o robô deverá começar a andar após alguns segundos. Esse código pode ser customizado de acordo com as necessidades.
+Com isso, o terminal deve ter iniciado o modo desejado. No [código base](/code_main), o input do teclado "0" para o movimento do robô. Enquanto o "1" faz com que o mesmo ande para a frente. Se tudo estiver correto, ao apertar a tecla 1 o robô deverá começar a andar após alguns segundos. Esse código pode ser customizado de acordo com as necessidades.
 
 	
 
